@@ -3,13 +3,8 @@ using System.Collections.Generic;
 
 namespace AOC2021_1
 {
-    public class Program
+    public class Day1
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
-
         public static int HowManyMeasurementsAreLargerThanThePreviousMeasurement(List<int> input)
         {
             int prev = input[0];
