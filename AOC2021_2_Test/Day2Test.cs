@@ -9,20 +9,20 @@ namespace AOC2021_2_Test
         [TestMethod]
         public void MultiplyYourFinalHorizontalPositionByYourFinalDepth()
         {
-            var res1 = Day2.MultiplyYourFinalHorizontalPositionByYourFinalDepth(AOC2021_1_Test.Day1Inputs.Input1);
+            var res1 = Day2.MultiplyYourFinalHorizontalPositionByYourFinalDepth(Day2Inputs.Input1);
             Assert.IsTrue(res1 == 150);
 
-            var res2 = Day2.MultiplyYourFinalHorizontalPositionByYourFinalDepth(AOC2021_1_Test.Day1Inputs.Input2);
+            var res2 = Day2.MultiplyYourFinalHorizontalPositionByYourFinalDepth(Day2Inputs.Input2);
         }
 
         
         [TestMethod]
         public void MultiplyYourFinalHorizontalPositionByYourFinalDepthWithAim()
         {
-            var res1 = Day2.MultiplyYourFinalHorizontalPositionByYourFinalDepthWithAim(AOC2021_1_Test.Day1Inputs.Input1);
+            var res1 = Day2.MultiplyYourFinalHorizontalPositionByYourFinalDepthWithAim(Day2Inputs.Input1);
             Assert.IsTrue(res1 == 900);
 
-            var res2 = Day2.MultiplyYourFinalHorizontalPositionByYourFinalDepthWithAim(AOC2021_1_Test.Day1Inputs.Input2);
+            var res2 = Day2.MultiplyYourFinalHorizontalPositionByYourFinalDepthWithAim(Day2Inputs.Input2);
         }
     }
 }

@@ -261,3 +261,9 @@
 /AOC2021_2_Test/obj/project.nuget.cache
 /.vs/AOC2021/v16/TestStore/0/000.testlog
 /.vs/AOC2021/v16/TestStore/0/testlog.manifest
+/AOC2021_3/bin/Debug/netcoreapp3.1
+/AOC2021_3/obj
+/AOC2021_3_Test/bin/Debug/netcoreapp3.1
+/AOC2021_3_Test/obj
+/AOC2021_4/obj
+/AOC2021_4_Test/obj

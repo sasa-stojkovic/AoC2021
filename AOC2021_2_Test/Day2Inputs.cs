@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AOC2021_1_Test
+namespace AOC2021_2_Test
 {
-    public class Day1Inputs
+    public class Day2Inputs
     {
         public static string Input1 = @"forward 5
 down 5
