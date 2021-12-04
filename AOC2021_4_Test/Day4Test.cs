@@ -8,21 +8,21 @@ namespace AOC1021_4_Test
     public class Day4Test
     {
         [TestMethod]
-        public void Method1()
+        public void FinalScore()
         {
-            var res1 = Day4.Method1(Day4Inputs.Input1);
-            Assert.IsTrue(res1 == 1);
+            var res1 = Day4.FinalScore(Day4Inputs.Input1A, Day4Inputs.Input1B);
+            Assert.IsTrue(res1 == 4512);
 
-            var res2 = Day4.Method1(Day4Inputs.Input2);
+            var res2 = Day4.FinalScore(Day4Inputs.Input2A, Day4Inputs.Input2B);
         }
 
         [TestMethod]
-        public void Method2()
+        public void FinalScoreLastToWin()
         {
-            var res1 = Day4.Method2(Day4Inputs.Input1);
-            Assert.IsTrue(res1 == 1);
+            var res1 = Day4.FinalScoreLastToWin(Day4Inputs.Input1A, Day4Inputs.Input1B);
+            Assert.IsTrue(res1 == 1924);
 
-            var res2 = Day4.Method2(Day4Inputs.Input2);
+            var res2 = Day4.FinalScoreLastToWin(Day4Inputs.Input2A, Day4Inputs.Input2B);
         }
     }
 }
