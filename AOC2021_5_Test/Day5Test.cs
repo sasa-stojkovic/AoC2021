@@ -7,21 +7,21 @@ namespace AOC2021_5_Test
     public class Day5Test
     {
         [TestMethod]
-        public void Method1()
+        public void HowManyPointsOverlapHV()
         {
-            var res1 = Day5.Method1(Day5Inputs.Input1);
-            Assert.IsTrue(res1 == 0);
+            var res1 = Day5.HowManyPointsOverlap(Day5Inputs.Input1, false);
+            Assert.IsTrue(res1 == 5);
 
-            var res2 = Day5.Method1(Day5Inputs.Input2);
+            var res2 = Day5.HowManyPointsOverlap(Day5Inputs.Input2, false);
         }
 
         [TestMethod]
-        public void Method2()
+        public void HowManyPointsOverlapD()
         {
-            var res1 = Day5.Method2(Day5Inputs.Input1);
-            Assert.IsTrue(res1 == 0);
+            var res1 = Day5.HowManyPointsOverlap(Day5Inputs.Input1, true);
+            Assert.IsTrue(res1 == 12);
 
-            var res2 = Day5.Method2(Day5Inputs.Input2);
+            var res2 = Day5.HowManyPointsOverlap(Day5Inputs.Input2, true);
         }
     }
 }
