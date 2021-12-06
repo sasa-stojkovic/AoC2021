@@ -397,3 +397,8 @@
 /.vs/AOC2021/v16/TestStore/0
 /AOC2021_6_Test/bin/Debug/netcoreapp3.1
 /AOC2021_6/bin/Debug/netcoreapp3.1
+/.vs/AOC/v16
+/AOC2021/bin/Debug/netcoreapp3.1
+/AOC2021/obj
+/AOC2021_Test/bin/Debug/netcoreapp3.1
+/AOC2021_Test/obj
