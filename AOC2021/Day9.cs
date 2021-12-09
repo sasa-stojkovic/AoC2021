@@ -10,7 +10,7 @@ namespace AOC2021
         {
             int Result = 0;
 
-            var LinesS = Input.Split(new char[] { '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries);
+            var LinesS = Input.Split(new char[] { '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries); 
 
             List<List<int>> Map = new List<List<int>>();
 
