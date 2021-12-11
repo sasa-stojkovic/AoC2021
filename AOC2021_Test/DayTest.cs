@@ -225,4 +225,23 @@ namespace AOC2021_Test
             var res2 = Day10.MiddleScore(Day10Inputs.Input2);
         }
     }
+
+    [TestClass]
+    public class Day11Test
+    {
+        [TestMethod]
+        public void Method1()
+        {
+            var res1 = Day11.TotalFlashes(Day11Inputs.Input0, 2);
+            Assert.IsTrue(res1 == 9);
+
+            res1 = Day11.TotalFlashes(Day11Inputs.Input1, 10);
+            Assert.IsTrue(res1 == 204);
+
+            res1 = Day11.TotalFlashes(Day11Inputs.Input1, 100);
+            Assert.IsTrue(res1 == 1656);
+
+            var res2 = Day11.TotalFlashes(Day11Inputs.Input2, 100);
+        }
+    }
 }

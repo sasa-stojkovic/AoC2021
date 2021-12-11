@@ -12,12 +12,13 @@ namespace AOC2021
 
             var LinesS = Input.Split(new char[] { '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries);
 
-            Dictionary<string, int> Points = new Dictionary<string, int>() {
-                        { ")", 3 },
-                        { "]", 57 },
-                        { "}", 1197 },
-                        { ">", 25137}
-                    };
+            Dictionary<string, int> Points = new Dictionary<string, int>()
+            {
+                { ")", 3 },
+                { "]", 57 },
+                { "}", 1197 },
+                { ">", 25137}
+            };
 
             foreach (var LineS in LinesS)
             {
@@ -69,10 +70,7 @@ namespace AOC2021
                         default:
                             break;
                     }
-                    if (!IsValid)// && Stack.Count == 0)
-                    {
-                        break;
-                    }
+                    if (!IsValid) break;
                 }
             }
 
@@ -87,12 +85,13 @@ namespace AOC2021
 
             List<long> LineScores = new List<long>();
 
-            Dictionary<string, int> Points = new Dictionary<string, int>() {
-                        { ")", 1 },
-                        { "]", 2 },
-                        { "}", 3 },
-                        { ">", 4}
-                    };
+            Dictionary<string, int> Points = new Dictionary<string, int>() 
+            {
+                { ")", 1 },
+                { "]", 2 },
+                { "}", 3 },
+                { ">", 4}
+            };
 
             foreach (var LineS in LinesS)
             {
