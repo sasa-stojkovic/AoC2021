@@ -230,7 +230,7 @@ namespace AOC2021_Test
     public class Day11Test
     {
         [TestMethod]
-        public void Method1()
+        public void TotalFlashes()
         {
             var res1 = Day11.TotalFlashes(Day11Inputs.Input0, 2);
             Assert.IsTrue(res1 == 9);
@@ -242,6 +242,40 @@ namespace AOC2021_Test
             Assert.IsTrue(res1 == 1656);
 
             var res2 = Day11.TotalFlashes(Day11Inputs.Input2, 100);
+        }
+    }
+
+    [TestClass]
+    public class Day12Test
+    {
+        [TestMethod]
+        public void HowManyPaths()
+        {
+            var res1 = Day12.HowManyPaths(Day12Inputs.Input1);
+            Assert.IsTrue(res1 == 10);
+
+            res1 = Day12.HowManyPaths(Day12Inputs.Input2);
+            Assert.IsTrue(res1 == 19);
+
+            res1 = Day12.HowManyPaths(Day12Inputs.Input3);
+            Assert.IsTrue(res1 == 226);
+
+            var res2 = Day12.HowManyPaths(Day12Inputs.Input4);
+        }
+
+        [TestMethod]
+        public void HowManyPaths2()
+        {
+            var res1 = Day12.HowManyPaths2(Day12Inputs.Input1);
+            Assert.IsTrue(res1 == 36);
+
+            res1 = Day12.HowManyPaths2(Day12Inputs.Input2);
+            Assert.IsTrue(res1 == 103);
+
+            res1 = Day12.HowManyPaths2(Day12Inputs.Input3);
+            Assert.IsTrue(res1 == 3509);
+
+            var res2 = Day12.HowManyPaths2(Day12Inputs.Input4);
         }
     }
 }
