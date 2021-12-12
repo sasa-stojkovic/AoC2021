@@ -139,12 +139,6 @@ namespace AOC2021
             Node NA = EasyFind[A];
             Node NB = EasyFind[B];
 
-            //if (!NA.IsBig && 
-            //    !NB.IsBig && 
-            //    (!NA.Connections.Any(c => c.IsBig) || 
-            //     !NB.Connections.Any(c => c.IsBig))) 
-            //    return;
-
             NA.Connections.Add(NB);
             NB.Connections.Add(NA);
         }
